@@ -1,8 +1,10 @@
-Installation
-===============================================
+Getting started
+================
+
+.. _getting started:
 
 Requirement
-----------------------------------
+------------
 
 `Blender 2.8+ <https://www.blender.org/>`_
 
