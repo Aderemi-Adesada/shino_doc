@@ -1,7 +1,7 @@
+.. _getting started:
+
 Getting started
 ================
-
-.. _getting started:
 
 Requirement
 ------------
