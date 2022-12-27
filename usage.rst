@@ -33,3 +33,35 @@ give the file a name and a hourly rate if neccesary and also a description.
 .. raw:: html
 
     <video width=500 nocontrols autoplay loop muted src="_static/img/Creating_new_asset.mp4"></video>
+
+Opening a File
+-------------------
+Select the file you want to open, then click the open button.
+
+.. image:: _static/img/open_file.png
+    :align: center
+
+If you want load the file with its ui setup then select Load UI
+
+.. image:: _static/img/load_ui.png
+    :align: center
+
+
+View/Editing File Information
+------------------------------
+Select a file you want to open, then click the file info button.
+You will be able to view all information about the file include time spent on it
+and other cost based on project rate.
+you can also update file name from here
+
+.. image:: _static/img/file_info.png
+    :align: center
+
+Notes
+------------------------------
+notes allows you to store and kept important information to be used later
+during work
+
+.. image:: _static/img/notes.png
+    :align: center
+
