@@ -6,19 +6,45 @@ Usage
 
 |
 
+Creating/Editing Projects
+-----------------------
+
 Creating a Project
-------------------
+^^^^^^^^^^^^^^^^^^
 Creating a new project is as easy as clicking the plus button beside the project filter menu,
 give the project a name and a hourly rate if neccesary.
 
 .. raw:: html
 
-    <video width=500 nocontrols autoplay loop muted src="_static/img/creating_project.mp4"></video>
+    <video width=100% nocontrols autoplay loop muted src="_static/img/creating_project.mp4"></video>
 
 |
 
+View/Editing Project Information
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Select a Project you want, then click the file info button.
+You will be able to view all information about the project including time spent on it
+and other cost based on project rate.
+you can also update project name from here
+
+.. image:: _static/img/project_info_menu.png
+    :align: center
+
+Project Extra Menu
+^^^^^^^^^^^^^^^^^^
+From the project extra menu you can find options to view/edit project info, open the folder where your project in located,
+or delete the project
+
+.. image:: _static/img/project_extra_menu.png
+    :align: center
+
+|
+
+Creating/Editing Files
+-----------------------
+
 File Types
-------------------
+^^^^^^^^^^^
 File types helps to categorize your files in sections that best fits it usage.
 Currently Shino supports 4 file types Characters, Props, Environments and Shots.
 
@@ -31,19 +57,42 @@ Currently Shino supports 4 file types Characters, Props, Environments and Shots.
 |    
 
 Creating a New File
--------------------
+^^^^^^^^^^^^^^^^^^
 Clicking the plus button beside the file type filter menu,
 give the file a name and a hourly rate if neccesary and also a description.
 
 .. raw:: html
 
-    <video width=500 nocontrols autoplay loop muted src="_static/img/Creating_new_asset.mp4"></video>
+    <video width=100% nocontrols autoplay loop muted src="_static/img/Creating_new_asset.mp4"></video>
+
+|
+
+Creating a New File from a Existing File
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Clicking the import active button will allow to to add the currently opened file to your project, this help to simplify importation
+of previous files create outside of shino
+
+.. image:: _static/img/import_active.png
+    :align: center
+
+|
+
+View/Editing File Information
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Select a file you want to open, then click the file info button.
+You will be able to view all information about the file include time spent on it
+and other cost based on project rate.
+you can also update file name from here
+
+.. image:: _static/img/file_info.png
+    :align: center
 
 |
 
 Opening a File
 -------------------
-Select the file you want to open, then click the open button.
+Select the file you want to open, then click the open button |open_file_icon|.
+A green marker on the file will indicate the currenly opened file
 
 .. image:: _static/img/open_file.png
     :align: center
@@ -51,18 +100,6 @@ Select the file you want to open, then click the open button.
 If you want load the file with its ui setup then select Load UI
 
 .. image:: _static/img/load_ui.png
-    :align: center
-
-|
-
-View/Editing File Information
-------------------------------
-Select a file you want to open, then click the file info button.
-You will be able to view all information about the file include time spent on it
-and other cost based on project rate.
-you can also update file name from here
-
-.. image:: _static/img/file_info.png
     :align: center
 
 |
@@ -108,9 +145,74 @@ When a file is modified it change status becomes red this help to tell files tha
 
 Creating New Versions of File
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-you can create new version of a file by pressing the publish button.
+you can create new version of a file by pressing the publish button |publish_file|.
 
 .. note::
     you are advised to write a relevant message during publishing of file
-    to help track changes earlly
+    to help track changes easily
 
+.. raw:: html
+
+    <video width=100% nocontrols autoplay loop muted src="_static/img/publish_version.mp4"></video>
+
+|
+
+Reverting to Previous Versions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+You can revert to any stored version of your file at any time using the version history button |version_history|
+
+.. raw:: html
+
+    <video width=100% nocontrols autoplay loop muted src="_static/img/reverting_to_versions.mp4"></video>
+
+|
+
+Reset File
+^^^^^^^^^^^^^^^^^^^
+When a file is modified you can reset it to the last published version using the revert button on the side menu
+
+.. image:: _static/img/reset_file.png
+    :align: center
+
+Versioning Maps
+^^^^^^^^^^^^^^^^
+
+.. note::
+    Maps are images or videos wrapped around an object in 3d, they are basically textures and video used in a file
+
+all maps used in a file can be versioned, the is expectial useful when you are painting a mask/textures, this will help you to version
+different stages of your maps without having to save multiple.
+
+To start versioning of maps you need to press the consolidate button, this will find and create a new version history for all new maps that
+havent been consolidated previously
+
+.. image:: _static/img/consolidate_maps.png
+    :align: center
+
+after consolidating maps for a file, any new publish to that file will also create a new version for all modified maps
+
+View all Maps and Their state
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.. |version_history| image:: _static/img/version_history.png
+    :height: 25px
+
+.. |publish_file| image:: _static/img/publish_file.png
+    :height: 25px
+
+.. |open_file_icon| image:: _static/img/open_file_icon.png
+    :height: 25px
