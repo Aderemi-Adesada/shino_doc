@@ -13,8 +13,6 @@ The official version on the website is always supported first and foremost but t
 Addon Installation
 --------------------------------
 
-If updating Blender one must also update the Hard Ops / Boxcutter packages for the latest version.
-
 1. Firstly ensure Blender 2.8 is up to date.
 ----------------------------------------------
 - `Blender.org <https://www.blender.org/download/>`_
