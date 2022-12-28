@@ -25,9 +25,7 @@ the :doc:`installation` process of the addon.
 
 
 
-.. Indices and tables
-.. ==================
-
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
+Indices and tables
+==================
+* :ref:`usage`
+* :ref:`getting_started`
