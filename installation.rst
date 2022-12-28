@@ -3,14 +3,14 @@
 Getting started
 ================
 
-Requirement
+Requirements
 ------------
 
 `Blender 2.8+ <https://www.blender.org/>`_
 
-The official version on the website is always supported first and foremost but the developments also cover `Buildbot`_.
+The official version on the website is always supported first and foremost but the developments also covers `Buildbot`_.
 
-Addon / Hard Ops Installation
+Addon Installation
 --------------------------------
 
 If updating Blender one must also update the Hard Ops / Boxcutter packages for the latest version.
