@@ -14,15 +14,17 @@ Welcome to Shino's documentation!
    installation
    usage
 
-**Shino** is a blender project management and version control addon, that helps you manage your files and projects.
-Shino helps reduce the stress of organizing your files manually which is prone to error, while working on my personal
-projects In blender I found out that I spend almost 40% of my time searching for files, so I created shino to solve that problem. 
+**Shino** is a blender project management and version control addon that helps you manage your files and projects.
+Shino helps to reduce the stress of organizing your files manually which is prone to error. While working on my personal
+projects in blender, I found that I spend almost 40% of my time searching for files, hence I created Shino to solve that problem. 
 
-Shino also helps you version your files so when you have an idea you can always try it out without worrying about losing your old
-or duplicating your file, shino also makes reusing assets from other projects easy, it also keeps track of the time you have spent
-on a file/project and how it cost which can help you when billing your clients.
+Shino also helps you to version your files. So when you have an idea you can always try it out without worrying about losing your progress
+or duplicating your file.
 
-Check out the :doc:`usage` section for further information, including
+Shino also makes re-using assets from other projects easy. It also keeps track of the time you have spent
+on a file/project and how much it cost, and this can help when billing your clients.
+
+Check out the :doc:`usage` section for further information including
 the :doc:`installation` process of the addon.
 
 .. note::
