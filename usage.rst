@@ -7,7 +7,7 @@ Usage
 |
 
 Creating/Editing Projects
------------------------
+--------------------------
 
 Creating a Project
 ^^^^^^^^^^^^^^^^^^
@@ -57,7 +57,7 @@ Currently Shino supports 4 file types Characters, Props, Environments and Shots.
 |    
 
 Creating a New File
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 Clicking the plus button beside the file type filter menu,
 give the file a name and a hourly rate if neccesary and also a description.
 
@@ -168,11 +168,13 @@ You can revert to any stored version of your file at any time using the version 
 |
 
 Reset File
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^
 When a file is modified you can reset it to the last published version using the revert button on the side menu
 
 .. image:: _static/img/reset_file.png
     :align: center
+
+|
 
 Versioning Maps
 ^^^^^^^^^^^^^^^^
@@ -191,9 +193,46 @@ havent been consolidated previously
 
 after consolidating maps for a file, any new publish to that file will also create a new version for all modified maps
 
+|
+
 View all Maps and Their state
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pressing the maps version button shows a list of all maps belonging to the file
+a red icon signifies the map has been modified
 
+.. image:: _static/img/maps_list.png
+    :align: center
+
+|
+
+View Map Version Log
+~~~~~~~~~~~~~~~~~~~~
+presing the version log button on the maps list with display alway published versions of the map,
+you can revert to any version of the map from this menu
+
+.. image:: _static/img/maps_version_list.png
+    :align: center
+
+|
+
+Video Demo of Map Version Control
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. raw:: html
+
+    <video width=100% nocontrols autoplay loop muted src="_static/img/map_versioning.mp4"></video>
+
+|
+
+Importing from Other Shino Files
+---------------------------------
+
+Object, Collection and Material can be linked or appended better different files or even projects easily by pressing the import seleted button,
+
+.. raw:: html
+
+    <video width=100% nocontrols autoplay loop muted src="_static/img/linking_assets.mp4"></video>
+
+|
 
 
 
